@@ -9,12 +9,12 @@ type Message struct {
 	Content string `json:"content"`
 }
 
-type Storage struct {
+type storage struct {
 	Query []string
 	Reply []string
 }
 
-var storage = Storage{
+var Storage = storage{
 	Query: []string{"あなたの名前は何ですか？"},
 	Reply: []string{"はいそうです"},
 }

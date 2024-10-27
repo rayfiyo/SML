@@ -1,4 +1,4 @@
-# SimpleLanguageModel
+# simple-language-model
 
 - Large Language Model （大規模言語モデル） の対、かもしれない…
 - シンプルです

@@ -1,4 +1,4 @@
-module github.com/rayfiyo/simpleLanguageModel
+module github.com/rayfiyo/simple-language-model
 
 go 1.23.2
 

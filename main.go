@@ -1,12 +1,12 @@
 package main
 
 import (
-	// "log"
+	"log"
 
 	"github.com/rayfiyo/simple-language-model/routers"
 )
 
 func main() {
 	r := routers.InitRouter()
-	r.Run("localhost:8080")
+	log.Fatal(r.Run("localhost:8080"))
 }
